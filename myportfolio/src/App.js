@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './components/css/styles.css';
 import Profile from './components/profile.js';
 import Header from './components/header.js';
+import Footer from './components/footer.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
             <>
               <Header header="Min profil"/>
               <Profile />
+              <Footer />
             </>
           }/>
         </Routes>
